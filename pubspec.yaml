@@ -1,0 +1,96 @@
+name: sphere_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 2.0.0+2
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^1.0.3
+  vector_math: ^2.1.1
+  get: ^4.6.1
+  webview_flutter: ^3.0.1
+  hive: ^2.1.0
+  hive_flutter: ^1.1.0
+  flutter_colorpicker: ^1.0.3
+  image_picker: ^0.8.5
+  file_picker: ^4.5.1
+  path_provider: ^2.0.9
+  fluttertoast: ^8.0.9
+  flutter_native_splash: ^2.1.2+1
+  flutter_advanced_switch: ^3.0.0+1
+  font_awesome_flutter: ^10.1.0
+  adaptive_theme: ^2.3.0
+  carousel_slider: ^4.0.0
+  cached_network_image: ^3.2.0
+  google_mobile_ads: ^1.1.0
+  provider: ^6.0.2
+  in_app_review: ^2.0.4
+
+  firebase_core: ^1.13.1
+  firebase_auth: ^3.3.11
+  cloud_firestore: ^3.1.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+  hive_generator: ^1.1.2
+  build_runner: ^2.1.8
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/icons/
+    - assets/images/
+
+  fonts:
+    - family: MyFlutterApp
+      fonts:
+        - asset: assets/fonts/MyFlutterApp.ttf
+    - family: PoppinsLight
+      fonts:
+        - asset: assets/fonts/PoppinsLight.ttf
+          weight: 300
+    - family: PoppinsRegular
+      fonts:
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
+    - family: PoppinsMedium
+      fonts:
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
+    - family: PoppinsSemiBold
+      fonts:
+        - asset: assets/fonts/PoppinsSemiBold.ttf
+          weight: 600
+    - family: InterRegular
+      fonts:
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
